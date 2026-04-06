@@ -6,11 +6,20 @@
     font-style: normal;
 }
 
+.container {
+    max-width: 1290px;
+    margin: 0 auto;
+    padding: 0;
+}
+
 /* Header style */
+.header-style {
+    display: flex;
+}
+
 .header-img-container {
-    width: 45%;
+    width: 40%;
     max-width: unset;
-    
     background-image: url('/images/shapes/Group\ 8450.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -19,6 +28,7 @@
 
 .header-img-container > img {
     position: relative;
-    left: 130px;
-    bottom: 17px;
+    width: 550px;
+    right: 65px;
+    bottom: 40px;
 }
