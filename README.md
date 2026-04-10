@@ -1,1 +1,1 @@
-## eat-healthy-website
+## eat-healthy-landing-page
