@@ -19,7 +19,7 @@
 
 /* Header style */
 .header-title {
-    font-size: 3.9rem;
+    font-size: 3.6rem;
     font-weight: bold;
     color: #575757;
 }
@@ -28,9 +28,25 @@
     width: 599px;
 }
 
+.header-description {
+    font-size: 1.2rem;
+    color: #828282;
+}
+
+.header-btn {
+    width: 190px;
+    height: 68px;
+    border-radius: 100px;
+    border: none;
+    background: linear-gradient(90deg, #FBA24F, #FF1E1E);
+    color: #FFFFFF;
+    font-size: 1rem;
+}
 
 .header-style {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-img-container {
