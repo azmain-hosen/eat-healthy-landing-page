@@ -12,7 +12,23 @@
     padding: 0;
 }
 
+/* Shared styles */
+.color-1 {
+    color: #FBA24F;
+}
+
 /* Header style */
+.header-title {
+    font-size: 3.9rem;
+    font-weight: bold;
+    color: #575757;
+}
+
+.header-text-container {
+    width: 599px;
+}
+
+
 .header-style {
     display: flex;
 }
@@ -26,7 +42,7 @@
     background-size: contain;
 }
 
-.header-img-container > img {
+.header-img-container>img {
     position: relative;
     width: 550px;
     right: 65px;
