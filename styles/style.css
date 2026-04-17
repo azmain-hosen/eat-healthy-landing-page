@@ -31,6 +31,7 @@
 .header-description {
     font-size: 1.2rem;
     color: #828282;
+    width: 499px;
 }
 
 .header-btn {
@@ -41,6 +42,11 @@
     background: linear-gradient(90deg, #FBA24F, #FF1E1E);
     color: #FFFFFF;
     font-size: 1rem;
+}
+
+header > div > button > a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .header-style {
