@@ -41,7 +41,8 @@
     border: none;
     background: linear-gradient(90deg, #FBA24F, #FF1E1E);
     color: #FFFFFF;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    box-shadow: 10px 10px 20px rgba(251, 162, 79, 0.5);
 }
 
 header > div > button > a {
@@ -80,21 +81,49 @@ header > div > button > a {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 200px;
-    max-width: 100%;
-    width: 100%;
+    gap: 100px;
 }
 
 .about-section-img-container {
-    width: 50%;
+    width: 20%;
 }
 
 .about-section-img {
     width: 338px;
-    height: 400px;
+    height: 535px;
 }
 
 .about-section-text {
     width: 20%;
     max-width: unset;
+}
+
+
+.about-section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #575757;
+}
+
+.about-section-description {
+    font-size: 1.2rem;
+    color: rgba(24, 25, 31, 1);
+    width: 444px;
+}
+
+.about-section-btn {
+    width: 190px;
+    height: 68px;
+    border-radius: 100px;
+    border: none;
+    background: linear-gradient(90deg, #FBA24F, #FF1E1E);
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    box-shadow: 10px 10px 20px rgba(251, 162, 79, 0.5);
+    margin-top: 90px;
+}
+
+.about-section-text > button > a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
