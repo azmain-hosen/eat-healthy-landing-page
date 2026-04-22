@@ -6,13 +6,13 @@
     font-style: normal;
 }
 
+/* Shared styles */
 .container {
     max-width: 1290px;
     margin: 0 auto;
     padding: 0;
 }
 
-/* Shared styles */
 .color-1 {
     color: #FBA24F;
 }
@@ -130,4 +130,70 @@ header>div>button>a {
 .about-section-text>button>a {
     color: #FFFFFF;
     text-decoration: none;
+}
+
+
+.hidden {
+    display: none;
+}
+
+/* Responsive Styles */
+@media (min-width: 320px) and (max-width: 576px) {
+    .header-style {
+        flex-direction: column-reverse;
+    }
+
+    .header-img-container {
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        width: 100%; 
+        margin-top: 100px;
+    }
+
+    .header-img-container>img {
+        position: relative;
+        width: 100%;
+        top: -10px;
+        left: -30px;
+    }
+
+    .header-text-container {
+        font-size: 1rem;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-description {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .header-style {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .header-description {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-img-container {
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        width: 70%; 
+        margin-top: 100px;
+    }
+
+    .header-img-container>img {
+        position: relative;
+        width: 100%;
+        top: -20px;
+        left: -52px;
+    }
 }
