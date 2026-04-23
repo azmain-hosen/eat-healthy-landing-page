@@ -142,7 +142,7 @@ header>div>button>a {
         align-items: center;
         justify-content: center;
         background-size: cover;
-        width: 100%; 
+        width: 100%;
         margin-top: 100px;
     }
 
@@ -164,6 +164,58 @@ header>div>button>a {
         width: 100%;
         text-align: center;
     }
+
+    .about-section {
+        background-size: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-size: cover;
+        overflow: hidden;
+        padding: 40px 20px;
+    }
+
+    .about-section-img-container {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-section-img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .about-section-text {
+        width: 100%;
+    }
+
+    .about-section-title {
+        margin-top: -20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .about-section-description {
+        margin-top: -20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .about-section-btn {
+        width: 100%;
+        display: block;
+        margin: 0px auto;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -181,7 +233,7 @@ header>div>button>a {
         align-items: center;
         justify-content: center;
         background-size: cover;
-        width: 70%; 
+        width: 70%;
         margin-top: 100px;
     }
 
@@ -190,6 +242,58 @@ header>div>button>a {
         width: 100%;
         top: -20px;
         left: -52px;
+    }
+
+    .about-section {
+        background-size: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-size: cover;
+        overflow: hidden;
+        padding: 40px 20px;
+    }
+
+    .about-section-img-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-section-img {
+        height: auto;
+        display: block;
+    }
+
+    .about-section-text {
+        width: 100%;
+    }
+
+    .about-section-title {
+        margin-top: -20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .about-section-description {
+        margin-top: -20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .about-section-btn {
+        max-width: 300px;
+        display: block;
+        margin: 0px auto;
     }
 }
 
@@ -210,7 +314,7 @@ header>div>button>a {
         align-items: center;
         justify-content: center;
         background-size: cover;
-        width: 50%; 
+        width: 50%;
         margin-top: 50px;
     }
 
@@ -219,5 +323,15 @@ header>div>button>a {
         width: 100%;
         top: -20px;
         left: -52px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .about-section {
+        background-size: 100%;
+        display: flex;
+        align-items: center;
+        gap: 300px;
+        background-size: cover;
     }
 }
