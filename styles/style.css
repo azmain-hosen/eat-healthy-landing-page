@@ -324,6 +324,30 @@ header>div>button>a {
         top: -20px;
         left: -52px;
     }
+
+    .about-section {
+        background-size: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-size: cover;
+        overflow: hidden;
+        gap: 100px;
+    }
+
+    .about-section-img-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-section-text {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
 }
 
 @media (min-width: 1025px) and (max-width: 1440px) {
