@@ -151,6 +151,12 @@ header>div>button>a {
     color: #575757;
 }
 
+.items-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #575757;
+}
+
 .items-section-description {
     font-size: 1.1rem;
     color: rgba(24, 25, 31, 1);
@@ -174,6 +180,21 @@ header>div>button>a {
     gap: 30px;
     padding: 30px;
 }
+
+/* Followers section styles */
+.followers-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.246);
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+/* .followers-section-container {
+    width: 350px;
+    height: 98px;
+} */
 
 /* Responsive Styles */
 @media (min-width: 320px) and (max-width: 576px) {
