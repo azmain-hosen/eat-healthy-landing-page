@@ -183,6 +183,7 @@ header>div>button>a {
 
 /* Followers section styles */
 .followers-section {
+    height: 226px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -191,10 +192,19 @@ header>div>button>a {
     border-radius: 20px;
 }
 
-/* .followers-section-container {
-    width: 350px;
-    height: 98px;
-} */
+.followers-section-title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.followers-section-description {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Footer Section Styles */
+
+
 
 /* Responsive Styles */
 @media (min-width: 320px) and (max-width: 576px) {
@@ -311,6 +321,13 @@ header>div>button>a {
         width: 100%;
         height: auto;
         border-radius: 20px;
+    }
+
+    .followers-section {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 50px;
     }
 }
 
